@@ -1,8 +1,8 @@
 version: "3"
 services:
   springboot-app:
-    container_name: CricketContainer
-    image: CricketImage
+    container_name: cricketcontainer
+    image: cricketimage
     restart: always
     build: .
     ports:
